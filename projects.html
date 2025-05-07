@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="text-section" id="projects">
+      <div class="typing" id="typing">
+        <span class="typed-text">Projects 🚀</span><span class="cursor"></span>
+      </div>
+      <div class="projects-carousel">
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="assets/project1.png" alt="Project 1" />
+                <h3>The DocBot: AI Powered Medical Assistant</h3>
+                <ul class="project-description">
+                  <li>Deployed a Mistral-Nemo-Instruct-2407 based chatbot using the HuggingFace Inference API for providing medical assistance based on user queries.</li>
+                  <li>Integrated 5 volumes of medical encyclopedias, encompassing over 2500 pages, into a FAISS vector database, leveraging Retrieval-Augmented Generation (RAG) for precise and contextually relevant responses.</li>
+                  <li>Implemented a ReactJS frontend with Google authentication, storing user profiles in a database to enhance chatbot response quality.</li>
+                </ul>
+                <div class="project-links">
+                  <a href="https://github.com/Udit-Krishna/The-DocBot" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+              </div>
+          <div class="project-card">
+            <img src="assets/project2.jpg" alt="Project 2" />
+            <h3>Automated ETL pipeline for Weather data of 6 Indian cities</h3>
+            <ul class="project-description">
+                <li>Developed and implemented an automated ETL pipeline using Apache Airflow to extract, transform, and load weather data for six major Indian cities from the OpenWeatherMap API.</li>
+                <li>Transformed raw weather data response into structured Pandas DataFrames, ensuring data consistency and accuracy before loading it into an AWS S3 bucket for scalable storage and easy accessibility.</li>
+                <li>Integrated AWS Glue Crawler to automatically create a schema and database, and utilized AWS Athena for querying and analyzing the weather data, enabling insightful data exploration and analysis.</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Udit-Krishna/etl-pipeline-weather" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="assets/project3.png" alt="Project 3" />
+            <h3>CareerHub: Job Application Optimization Platform</h3>
+            <ul class="project-description">
+                <li>Developed an AI-driven career guidance platform using OpenAI's GPT-4.1-nano and GPT-o4-mini to automate resume tailoring, job matching, and interview preparation.</li>
+                <li>Implemented LaTeX-based dynamic resume generation and ATS-optimized keyword matching by analyzing job descriptions and user profiles.</li>
+                <li>Deployed the platform in Docker containers for portability and scalability; integrated chatbot support for gap analysis, upskilling recommendations, and interview assistance.</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Udit-Krishna/CareerHub" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="assets/project4.png" alt="Project 4" />
+            <h3>Thirukkural.AI</h3>
+            <ul class="project-description">
+                <li>Leveraged Mistral 7B Instruct model using the HuggingFace inference API, specifically prompt-engineered for this application, to explore the profound teachings of Thirukkural.</li>
+                <li>Implemented Retrieval Augmented Generation to retrieve relevant lines from the book according to the user query.</li>
+                <li>Utilized a Vector database to store the embedding of each couplet and to develop a Recommender system.</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Udit-Krishna/Thirukkural.AI" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+              <a href="https://thirukkural-ai.streamlit.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <button class="control-btn prev-btn" aria-label="Previous project">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="control-btn pause-btn" aria-label="Pause rotation">
+            <i class="fas fa-pause"></i>
+          </button>
+          <button class="control-btn next-btn" aria-label="Next project">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar left">
+    <div class="dock-icon-wrapper">
+      <a href="index.html" class="dock-icon" aria-label="Hero"><i class="fas fa-home"></i></a>
+      <span class="dock-label">Home</span>
+    </div>
+    <div class="dock-icon-wrapper">
+      <a href="skills.html" class="dock-icon" aria-label="Skills"><i class="fas fa-code"></i></a>
+      <span class="dock-label">Skills</span>
+    </div>
+    <div class="dock-icon-wrapper">
+      <a href="projects.html" class="dock-icon" aria-label="Projects"><i class="fas fa-project-diagram"></i></a>
+      <span class="dock-label">Projects</span>
+    </div>
+    <div class="dock-icon-wrapper">
+      <a href="experience.html" class="dock-icon" aria-label="Experience"><i class="fas fa-briefcase"></i></a>
+      <span class="dock-label">Experience</span>
+    </div>
+    <div class="dock-icon-wrapper">
+      <a href="publications.html" class="dock-icon" aria-label="Publications"><i class="fas fa-book"></i></a>
+      <span class="dock-label">Publications</span>
+    </div>
+  </div>
+  <div class="sidebar right">
+    <div class="dock-icon-wrapper">
+      <a href="index.html" class="dock-icon" aria-label="Hero"><i class="fas fa-home"></i></a>
+      <span class="dock-label">Home</span>
+    </div>
+    <div class="dock-icon-wrapper">
+      <a href="skills.html" class="dock-icon" aria-label="Skills"><i class="fas fa-code"></i></a>
+      <span class="dock-label">Skills</span>
+    </div>
+    <div class="dock-icon-wrapper">
+      <a href="projects.html" class="dock-icon" aria-label="Projects"><i class="fas fa-project-diagram"></i></a>
+      <span class="dock-label">Projects</span>
+    </div>
+    <div class="dock-icon-wrapper">
+      <a href="experience.html" class="dock-icon" aria-label="Experience"><i class="fas fa-briefcase"></i></a>
+      <span class="dock-label">Experience</span>
+    </div>
+    <div class="dock-icon-wrapper">
+      <a href="publications.html" class="dock-icon" aria-label="Publications"><i class="fas fa-book"></i></a>
+      <span class="dock-label">Publications</span>
+    </div>
+  </div>
+
+  <div class="bottom-nav">
+    <a href="index.html" class="bottom-nav-icon" aria-label="Home"><i class="fas fa-home"></i></a>
+    <a href="skills.html" class="bottom-nav-icon" aria-label="Skills"><i class="fas fa-code"></i></a>
+    <a href="projects.html" class="bottom-nav-icon" aria-label="Projects"><i class="fas fa-project-diagram"></i></a>
+    <a href="experience.html" class="bottom-nav-icon" aria-label="Experience"><i class="fas fa-briefcase"></i></a>
+    <a href="publications.html" class="bottom-nav-icon" aria-label="Publications"><i class="fas fa-book"></i></a>
+  </div>
+  <script src="projects.js"></script>
+</body>
+</html>

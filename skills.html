@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skills</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="text-section" id="skills">
+      <div class="typing" id="typing">
+        <span class="typed-text">Skills & Expertise 🛠️</span><span class="cursor"></span>
+      </div>
+      
+      <div class="skills-tabs">
+        <div class="tab-buttons">
+          <button class="tab-btn active" data-tab="languages">Languages</button>
+          <button class="tab-btn" data-tab="data-science">Data Science & Machine Learning</button>
+          <button class="tab-btn" data-tab="web-dev">Web Development</button>
+          <button class="tab-btn" data-tab="concepts">Core Concepts</button>
+        </div>
+
+        <div class="mobile-select">
+          <div class="custom-select">
+            <div class="select-selected">Languages</div>
+            <div class="select-items">
+              <div class="select-item active" data-tab="languages">Languages</div>
+              <div class="select-item" data-tab="data-science">Data Science & Machine Learning</div>
+              <div class="select-item" data-tab="web-dev">Web Development</div>
+              <div class="select-item" data-tab="concepts">Core Concepts</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="languages">
+            <div class="skills-container">
+              <div class="skills-column">
+                <div class="skills-list">
+                  <div class="skill" style="--skill-level: 90%;"><div class="skill-name">Python</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 40%;"><div class="skill-name">C</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 50%;"><div class="skill-name">C++</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 60%;"><div class="skill-name">JavaScript</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 80%;"><div class="skill-name">HTML</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 75%;"><div class="skill-name">CSS</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 75%;"><div class="skill-name">SQL</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane" id="data-science">
+            <div class="skills-container">
+              <div class="skills-column">
+                <div class="skills-list">
+                  <div class="skill" style="--skill-level: 40%;"><div class="skill-name">Airflow</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 90%;"><div class="skill-name">Pandas</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 75%;"><div class="skill-name">TensorFlow</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 60%;"><div class="skill-name">PyTorch</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 80%;"><div class="skill-name">NumPy</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 90%;"><div class="skill-name">Scikit-learn</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 80%;"><div class="skill-name">Seaborn</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 80%;"><div class="skill-name">Matplotlib</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 80%;"><div class="skill-name">LangChain</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 90%;"><div class="skill-name">Hugging Face Transformers</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane" id="web-dev">
+            <div class="skills-container">
+              <div class="skills-column">
+                <div class="skills-list">
+                  <div class="skill" style="--skill-level: 40%;"><div class="skill-name">TailwindCSS</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 80%;"><div class="skill-name">Flask</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 80%;"><div class="skill-name">FastAPI</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 75%;"><div class="skill-name">Node.js</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 70%;"><div class="skill-name">Express.js</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 60%;"><div class="skill-name">React.js</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 50%;"><div class="skill-name">Docker</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane" id="concepts">
+            <div class="skills-container">
+              <div class="skills-column">
+                <div class="skills-list">
+                  <div class="skill" style="--skill-level: 80%;"><div class="skill-name">Data Science</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 70%;"><div class="skill-name">Data Analytics</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 50%;"><div class="skill-name">Data Engineering</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 50%;"><div class="skill-name">ETL</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 80%;"><div class="skill-name">Machine Learning</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 85%;"><div class="skill-name">Deep Learning</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 90%;"><div class="skill-name">Large Language Models</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 85%;"><div class="skill-name">Natural Language Processing</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 75%;"><div class="skill-name">Retrieval Augmented Generation</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                  <div class="skill" style="--skill-level: 60%;"><div class="skill-name">Web Development</div><div class="skill-bar"><div class="skill-bar-fill"></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sidebar left">
+    <div class="dock-icon-wrapper">
+      <a href="index.html" class="dock-icon" aria-label="Hero"><i class="fas fa-home"></i></a>
+      <span class="dock-label">Home</span>
+    </div>
+    <div class="dock-icon-wrapper">
+      <a href="skills.html" class="dock-icon" aria-label="Skills"><i class="fas fa-code"></i></a>
+      <span class="dock-label">Skills</span>
+    </div>
+    <div class="dock-icon-wrapper">
+      <a href="projects.html" class="dock-icon" aria-label="Projects"><i class="fas fa-project-diagram"></i></a>
+      <span class="dock-label">Projects</span>
+    </div>
+    <div class="dock-icon-wrapper">
+      <a href="experience.html" class="dock-icon" aria-label="Experience"><i class="fas fa-briefcase"></i></a>
+      <span class="dock-label">Experience</span>
+    </div>
+    <div class="dock-icon-wrapper">
+      <a href="publications.html" class="dock-icon" aria-label="Publications"><i class="fas fa-book"></i></a>
+      <span class="dock-label">Publications</span>
+    </div>
+  </div>
+  <div class="sidebar right">
+    <div class="dock-icon-wrapper">
+      <a href="index.html" class="dock-icon" aria-label="Hero"><i class="fas fa-home"></i></a>
+      <span class="dock-label">Home</span>
+    </div>
+    <div class="dock-icon-wrapper">
+      <a href="skills.html" class="dock-icon" aria-label="Skills"><i class="fas fa-code"></i></a>
+      <span class="dock-label">Skills</span>
+    </div>
+    <div class="dock-icon-wrapper">
+      <a href="projects.html" class="dock-icon" aria-label="Projects"><i class="fas fa-project-diagram"></i></a>
+      <span class="dock-label">Projects</span>
+    </div>
+    <div class="dock-icon-wrapper">
+      <a href="experience.html" class="dock-icon" aria-label="Experience"><i class="fas fa-briefcase"></i></a>
+      <span class="dock-label">Experience</span>
+    </div>
+    <div class="dock-icon-wrapper">
+      <a href="publications.html" class="dock-icon" aria-label="Publications"><i class="fas fa-book"></i></a>
+      <span class="dock-label">Publications</span>
+    </div>
+  </div>
+  
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const tabButtons = document.querySelectorAll('.tab-btn');
+      const tabPanes = document.querySelectorAll('.tab-pane');
+      const selectSelected = document.querySelector('.select-selected');
+      const selectItems = document.querySelector('.select-items');
+      const selectItemsList = document.querySelectorAll('.select-item');
+
+      // Function to switch tabs
+      function switchTab(tabId) {
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+        tabPanes.forEach(pane => pane.classList.remove('active'));
+        selectItemsList.forEach(item => item.classList.remove('active'));
+
+        document.querySelector(`[data-tab="${tabId}"]`).classList.add('active');
+        document.getElementById(tabId).classList.add('active');
+        selectSelected.textContent = document.querySelector(`[data-tab="${tabId}"]`).textContent;
+      }
+
+      // Desktop tab buttons
+      tabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const tabId = button.getAttribute('data-tab');
+          switchTab(tabId);
+        });
+      });
+
+      // Mobile dropdown
+      selectSelected.addEventListener('click', () => {
+        selectSelected.classList.toggle('active');
+        selectItems.classList.toggle('active');
+      });
+
+      selectItemsList.forEach(item => {
+        item.addEventListener('click', () => {
+          const tabId = item.getAttribute('data-tab');
+          switchTab(tabId);
+          selectSelected.classList.remove('active');
+          selectItems.classList.remove('active');
+        });
+      });
+
+      // Close dropdown when clicking outside
+      document.addEventListener('click', (e) => {
+        if (!e.target.closest('.custom-select')) {
+          selectSelected.classList.remove('active');
+          selectItems.classList.remove('active');
+        }
+      });
+    });
+  </script>
+  <div class="bottom-nav">
+    <a href="index.html" class="bottom-nav-icon" aria-label="Home"><i class="fas fa-home"></i></a>
+    <a href="skills.html" class="bottom-nav-icon" aria-label="Skills"><i class="fas fa-code"></i></a>
+    <a href="projects.html" class="bottom-nav-icon" aria-label="Projects"><i class="fas fa-project-diagram"></i></a>
+    <a href="experience.html" class="bottom-nav-icon" aria-label="Experience"><i class="fas fa-briefcase"></i></a>
+    <a href="publications.html" class="bottom-nav-icon" aria-label="Publications"><i class="fas fa-book"></i></a>
+  </div>
+</body>
+</html>
